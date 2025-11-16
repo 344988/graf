@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Имя анализируемого пакета -->
+    <packageName>your_crate_name</packageName>
+
+    <!-- Путь к настоящему Cargo.toml -->
+    <repositoryUrl>./Cargo.toml</repositoryUrl>
+
+    <!-- Этап 2 требует тестовый режим = false -->
+    <useTestRepository>false</useTestRepository>
+
+    <!-- Куда сохранять PNG -->
+    <outputImage>graph_cargo.png</outputImage>
+
+    <!-- Фильтр пакетов (можно оставить пустым) -->
+    <filterSubstring></filterSubstring>
+</config>

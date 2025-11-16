@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Имя анализируемого пакета (crate) -->
+    <packageName>your_crate_name</packageName>
+
+    <!--
+      Либо URL к репозиторию/сырому Cargo.toml,
+      либо путь к test_graph.txt (если useTestRepository=true)
+    -->
+    <repositoryUrl>./Cargo.toml</repositoryUrl>
+
+    <!-- Режим работы с тестовым репозиторием: true / false -->
+    <useTestRepository>true</useTestRepository>
+
+    <!-- Имя сгенерированного файла с изображением графа -->
+    <outputImage>graph.png</outputImage>
+
+    <!-- Подстрока для фильтрации пакетов (можно оставить пустым) -->
+    <filterSubstring>test</filterSubstring>
+</config>

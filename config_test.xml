@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Стартовый пакет (узел) в тестовом графе -->
+    <packageName>A</packageName>
+
+    <!-- Путь к файлу test_graph.txt -->
+    <repositoryUrl>./test_graph.txt</repositoryUrl>
+
+    <!-- Этапы 3–5 работают в тестовом режиме -->
+    <useTestRepository>true</useTestRepository>
+
+    <!-- Картинка графа -->
+    <outputImage>graph.png</outputImage>
+
+    <!-- Фильтрация пакетов. Можно убрать или оставить пустым -->
+    <filterSubstring></filterSubstring>
+</config>
